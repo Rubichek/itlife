@@ -1,0 +1,310 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.header__container,
+.who-we-are__container,
+.footer__container {
+    max-width: 1169px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.header__menu {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.header__menu-item {
+    list-style-type: none;
+    padding-right: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+li.header__menu-item:last-child {
+    padding-right: 0px;
+}
+
+.header__menu-item:hover {
+    color: #18B5DC;
+}
+
+button.header__callback {
+    background: none;
+    border: 1px solid #3C3C3C;
+    padding: 10px 19.5px;
+    text-transform:uppercase;
+}
+
+button.header__callback:hover {
+    background: #18B5DC;
+    color: white;
+    border: none;
+}
+
+h1.who-we-are__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 150px 0 0;
+}
+
+span.who-we-are__divider hr {
+    width: 45px;
+    height: 4px;
+    background: #DDDBDB;
+    border: none;
+    margin-top: 20px;
+}
+
+p.who-we-are__subtitle {
+    color: #3C3C3C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 40px 0 0;
+}
+
+
+ul.who-we-are__team {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.who-we-are__team li {
+    list-style-type: none;
+}
+
+.who-we-are__team-item-img-card-1 {
+    background: url(../images/alex-cutter.png);
+    width: 270px;
+    height: 270px;
+}
+
+.who-we-are__team-item-img-card-2 {
+    background: url(../images/alex-cutter.png);
+    width: 270px;
+    height: 270px;
+}
+
+.who-we-are__team-item-img-card-3 {
+    background: url(../images/elena-simpson.png);
+    width: 270px;
+    height: 270px;
+}
+
+.who-we-are__team-item-img-card-4 {
+    background: url(../images/lily-allen.png);
+    width: 270px;
+    height: 270px;
+}
+
+.who-we-are__team-item-img-card-1:hover,
+.who-we-are__team-item-img-card-2:hover,
+.who-we-are__team-item-img-card-3:hover,
+.who-we-are__team-item-img-card-4:hover {
+    background: #18B5DC;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.who-we-are__team-item-img-card-social {
+    display: flex;
+}
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-twitter,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-twitter,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-twitter,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-twitter {
+    background-image: url(../images/twitter.png);
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-twitter:hover,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-twitter:hover,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-twitter:hover,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-twitter:hover {
+    background-image: url(../images/twitter-social-h.png);
+}
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-facebook,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-facebook,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-facebook,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-facebook {
+    background-image: url(../images/facebook.svg);
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-facebook:hover,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-facebook:hover,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-facebook:hover,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-facebook:hover {
+    background-image: url(../images/facebook-social-h.png);
+}
+
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-instagram,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-instagram,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-instagram,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-instagram {
+    background-image: url(../images/instagram.svg);
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+}
+
+.who-we-are__team-item-img-card-1:hover .who-we-are__team-item-img-card-icon-instagram:hover,
+.who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-instagram:hover,
+.who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-instagram:hover,
+.who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-instagram:hover   {
+    background-image: url(../images/instagram-social-h.png);
+}
+
+
+h4.who-we-are__team-item-title {
+    margin: 20px 0 0;
+}
+
+p.who-we-are__team-item-description {
+    margin: 0;
+    color: #646464;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+footer.footer {
+    display: flex;
+}
+
+
+ul.footer__menu-items {
+    display: flex;
+    margin: 28px 0 28px 0;
+}
+
+ul.footer__menu-items li {
+    list-style-type: none;
+    color: #3C3C3C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__menu-items {
+    padding-left: 0px;
+}
+
+.footer__menu-item {
+    list-style-type: none;
+    padding-right: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+li.footer__menu-item:hover {
+    color: #18B5DC;
+}
+
+li.footer__menu-item:last-child {
+    padding-right: 0px;
+}
+
+ul.footer__social {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 41px;
+}
+
+ul.footer__social li {
+    padding-right: 30px;
+}
+
+li.footer__social-item:last-child {
+    padding-right: 0px;
+}
+
+.footer__social-twitter-icon {
+    background-image: url(../images/twitter-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-facebook-icon {
+    background-image: url(../images/facebook-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-instagram-icon {
+    background-image: url(../images/instagram-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-linkedin-icon {
+    background-image: url(../images/linkedin-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-telegram-icon {
+    background-image: url(../images/telegram-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+
+.footer__social-twitter-icon:hover {
+    background-image: url(../images/twitter-social-hover.svg);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-facebook-icon:hover {
+    background-image: url(../images/facebook-social-hover.svg);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-instagram-icon:hover {
+    background-image: url(../images/instagram-social-hover.svg);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-linkedin-icon:hover {
+    background-image: url(../images/linkedin-social-hover.svg);
+    width: 42px;
+    height: 42px;
+}
+
+.footer__social-telegram-icon:hover {
+    background-image: url(../images/telegram-social-hover.svg);
+    width: 42px;
+    height: 42px;
+}
