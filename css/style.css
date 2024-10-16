@@ -130,7 +130,7 @@ ul.who-we-are__team li {
 .who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-twitter,
 .who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-twitter,
 .who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-twitter {
-    background-image: url(../images/twitter.png);
+    background-image: url(../images/twitter-social.svg);
     width: 42px;
     height: 42px;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ ul.who-we-are__team li {
 .who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-facebook,
 .who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-facebook,
 .who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-facebook {
-    background-image: url(../images/facebook.svg);
+    background-image: url(../images/facebook-social.svg);
     width: 42px;
     height: 42px;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ ul.who-we-are__team li {
 .who-we-are__team-item-img-card-2:hover .who-we-are__team-item-img-card-icon-instagram,
 .who-we-are__team-item-img-card-3:hover .who-we-are__team-item-img-card-icon-instagram,
 .who-we-are__team-item-img-card-4:hover .who-we-are__team-item-img-card-icon-instagram {
-    background-image: url(../images/instagram.svg);
+    background-image: url(../images/instagram-social.svg);
     width: 42px;
     height: 42px;
     background-repeat: no-repeat;
